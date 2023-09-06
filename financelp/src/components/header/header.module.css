@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0 20px;
+  background-color: #FFF;
+  height: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo_icon {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.logop1 {
+  color: #1A2E35;
+}
+
+.logop2 {
+  color:  #5AE4A8;
+}
+
+.right_side_nav{
+  display: flex;
+  width: 600px;
+  align-items: center;
+  text-align: center;
+}
+
+
+
