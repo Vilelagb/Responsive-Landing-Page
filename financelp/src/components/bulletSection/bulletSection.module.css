@@ -1,0 +1,39 @@
+.bullet_div {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+.title_and_icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  background-color: #5AE4A8;
+  border-radius: 8px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  color: #1A2E35;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.subtitle_div {
+  display: flex;
+
+}
+
+.subtitle {
+  padding-top: 15px;
+  padding-left: 3px;
+}

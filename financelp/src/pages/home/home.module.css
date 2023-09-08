@@ -46,11 +46,27 @@ align-items: center;
 width: 50%;
 }
 
-
-
 .first_image {
   width: 500px;
 }
+
+.button_and_user_rating {
+  display: flex;
+}
+
+.user_rating {
+  padding-left: 20px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3px;
+}
+
+.icons {
+  display: flex;
+}
+
+
 
 /*-------------- MIDDLE SECTION --------------*/
 
@@ -59,11 +75,19 @@ width: 50%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
+  width: 100%;
+  height: 400px;
 }
 
 .div_middle_title {
   font-size: 25px;
-  margin-top: 60px;
 }
+
+.div_bullets {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  width: 100%;
+}
+
 

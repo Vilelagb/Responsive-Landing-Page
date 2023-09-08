@@ -1,8 +1,13 @@
 import styles from './home.module.css'
 import { Button } from '../../components/button'
-import { Subtitle } from '../../components/subtitle'
 import { BulletSection } from '../../components/bulletSection'
+import { AiFillStar } from 'react-icons/ai'
+import { CiBank, CiBitcoin, CiCircleCheck} from 'react-icons/ci'
+
+
 import RightImage from '../../assets/images/4136942-magicstudio-18e59p.png'
+import  Subtitle  from '../../components/subtitle'
+
 
 export function Home() {
   return (
@@ -19,7 +24,19 @@ export function Home() {
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit <br />
                 Eum cupiditate velit sint laboriosam blanditiis sit.</p>
             </div>
+            <div className={styles.button_and_user_rating}>
                 <Button/>
+                <div className={styles.user_rating}>
+                  <span>+590 users</span>
+                  <div className={styles.icons}>
+                    <AiFillStar/>
+                    <AiFillStar/>
+                    <AiFillStar/>
+                    <AiFillStar/>
+                    <AiFillStar/>
+                  </div>
+                </div>
+            </div>
           </div>
         </section>
           {/* START RIGHT TOP SECTION */}
@@ -36,6 +53,20 @@ export function Home() {
           <h2 className={styles.middle_title}>
             Hook to scroll right here
           </h2>
+        </div>
+        <div className={styles.div_bullets}>
+          <BulletSection
+          icon= {<CiBank/>}
+          title="Bullet one"
+          subtitle="Lorem ipsum dolor sit amet, consecte adipiscing elit. Fusce ex lorem, mollis nec sapien vel. "/>
+          <BulletSection
+          icon= {<CiCircleCheck/>}
+          title="Bullet two"
+          subtitle="Lorem ipsum dolor sit amet, consecte adipiscing elit.  Fusce ex lorem, mollis nec sapien vel. "/>
+          <BulletSection
+          icon= {<CiBitcoin/>}
+          title="Bullet three"
+          subtitle="Lorem ipsum dolor sit amet, consecte adipiscing elit.  Fusce ex lorem, mollis nec sapien vel. "/>
         </div>
       </section>
       
