@@ -100,3 +100,33 @@ width: 50%;
   height: 542px;
 }
 
+/*-------------- FAQ SECTION --------------*/
+
+.faq_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq_box {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  flex-direction: column;
+  width: 50%;
+  height: 452px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.faq_title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.faq_subtitle {
+  padding-top: 18px;
+  padding-bottom: 30px;
+}
+

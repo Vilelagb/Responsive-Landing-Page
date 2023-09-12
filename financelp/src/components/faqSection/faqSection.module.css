@@ -1,0 +1,10 @@
+.question {
+  font-weight: bold;
+  background-color: #F2F3F9;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.answer {
+  padding: 5px 0 5px 10px;
+}

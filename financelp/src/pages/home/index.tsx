@@ -7,6 +7,7 @@ import { CiBank, CiBitcoin, CiCircleCheck} from 'react-icons/ci'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
 import { FaMoneyBillTrendUp } from 'react-icons/fa6'
 import { SocialProof } from '../../components/socialProof'
+import { FaqSection } from '../../components/faqSection'
 
 
 import RightImage from '../../assets/images/4136942-magicstudio-18e59p.png'
@@ -112,6 +113,39 @@ export function Home() {
         name='Cras porta'
         description='Description'/>
       </section>
+
+      {/* START FAQ SECTION*/}
+      <section className={styles.faq_section}>
+        <div className={styles.faq_box}>
+          <h2 className={styles.faq_title}>
+            Vestibulum non urna
+          </h2>
+          <p className={styles.faq_subtitle}>
+            Cras pretium tristique tortor at egestas. Donec mollis nibh et metus dapibus laoreet. Sed molestie commodo purus, auctor ullamcorper neque tristique vel.
+          </p>
+          <FaqSection
+          question='Phasellus pellentesque pharetra magna, non porta justo?'
+          answer='Vivamus cursus ante a lacinia bibendum. Phasellus auctor commodo orci, at egestas turpis porttitor non. Nam in sapien urna. Ut rhoncus, libero eu posuere interdum, diam justo faucibus neque.'/>
+          <FaqSection
+          question='Ut facilisis nulla vel ipsum volutpat rutrum. Integer in?'
+          answer='Vivamus cursus ante a lacinia bibendum. Phasellus auctor commodo orci, at egestas turpis porttitor non. Nam in sapien urna. Ut rhoncus, libero eu posuere interdum, diam justo faucibus neque.'/>
+          <FaqSection
+          question='Donec quam orci, viverra sed aliquet et, pharetra a ipsum?'
+          answer='Vivamus cursus ante a lacinia bibendum. Phasellus auctor commodo orci, at egestas turpis porttitor non. Nam in sapien urna. Ut rhoncus, libero eu posuere interdum, diam justo faucibus neque.'/>
+          <FaqSection
+          question='Fusce eros purus, accumsan sed aliquam vitae, suscipit?'
+          answer='Vivamus cursus ante a lacinia bibendum. Phasellus auctor commodo orci, at egestas turpis porttitor non. Nam in sapien urna. Ut rhoncus, libero eu posuere interdum, diam justo faucibus neque.'/>
+          <FaqSection
+          question='Cras ac mattis metus. Donec massa ipsum, imperdiet non?'
+          answer='Vivamus cursus ante a lacinia bibendum. Phasellus auctor commodo orci, at egestas turpis porttitor non. Nam in sapien urna. Ut rhoncus, libero eu posuere interdum, diam justo faucibus neque.'/>
+        </div>
+
+      </section>
+
+
+
+
+
     </section>
   )
 }
