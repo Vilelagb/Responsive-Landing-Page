@@ -130,3 +130,27 @@ width: 50%;
   padding-bottom: 30px;
 }
 
+/*-------------- LAST CALL TO ACTION SECTION --------------*/
+
+.last_call_content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.last_call_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 320px;
+}
+
+.last_call_title{
+  width: 480px;
+  font-size: 30px;
+  margin: 0 0 20px 0;
+}
+
+

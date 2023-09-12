@@ -139,11 +139,14 @@ export function Home() {
           question='Cras ac mattis metus. Donec massa ipsum, imperdiet non?'
           answer='Vivamus cursus ante a lacinia bibendum. Phasellus auctor commodo orci, at egestas turpis porttitor non. Nam in sapien urna. Ut rhoncus, libero eu posuere interdum, diam justo faucibus neque.'/>
         </div>
-
       </section>
-
-
-
+      {/* START LAST CALL TO ACTION SECTION*/}
+      <section className={styles.last_call_div}>
+        <div className={styles.last_call_content}>
+          <h2 className={styles.last_call_title}>Quisque at malesuada orci. Vestibulum eros libero, eleifend.</h2>
+          <Button/>
+        </div>
+      </section>
 
 
     </section>
