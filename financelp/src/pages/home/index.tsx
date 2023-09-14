@@ -80,19 +80,26 @@ export function Home() {
       </section>
 
       {/* START MIDDLE SECTION PART 2*/}
+      <section className={styles.first_feature_section}>
         <FeatureSection
         title='Lorem ipsum dolor sit amet, elit consecte adipiscing elit fusce ex.'
         subtitle='Integer interdum mollis elit, ac tincidunt augue pellentesque nec. Mauris in scelerisque magna. Nam lacinia ac sapien in.'
         icon={<BsFillCheckCircleFill/>}
         listItem='Morbi mollis diam'
+        listItem2='Aenean quis pellentesque'
+        listItem3='Curabitur in ullamcorper'
         src={MiddleRightImage}/>
+      </section>
+      <section className={styles.second_feature_section}>
         <FeatureSection
-        title='Lorem ipsum dolor sit amet, elit consecte adipiscing elit fusce ex.'
-        subtitle='Integer interdum mollis elit, ac tincidunt augue pellentesque nec. Mauris in scelerisque magna. Nam lacinia ac sapien in.'
+        title='Orci varius natoque penatibus et magnis dis parturient montes.'
+        subtitle='Vestibulum facilisis mollis ex vel venenatis. Vestibulum et ex sed sem volutpat rutrum. Nam suscipit metus ante, in vehicual.'
         icon={<FaMoneyBillTrendUp/>}
-        listItem='Morbi mollis diam'
+        listItem='Nullam sed volutpat'
+        listItem2='Maecenas dignissim'
+        listItem3='Aliquam quis tortor'
         src={MiddleLeftImage}/>
-
+      </section>
       {/* START SOCIAL PROOF SECTION*/}
       <section className={styles.social_proof_section}>
         <SocialProof

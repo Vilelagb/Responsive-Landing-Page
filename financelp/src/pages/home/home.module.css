@@ -90,6 +90,21 @@ width: 50%;
   width: 100%;
 }
 
+/*-------------- FEATURE SECTION --------------*/
+
+.first_feature_section{
+  display: flex;
+  justify-content: space-around;
+  width: 100%
+}
+
+.second_feature_section{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  width: 100%
+}
+
 /*-------------- SOCIAL PROOF SECTION --------------*/
 
 .social_proof_section {

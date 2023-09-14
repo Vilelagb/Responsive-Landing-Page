@@ -9,7 +9,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
 }
 
 .title_subtitle_and_list {
@@ -46,9 +45,6 @@
   margin-left: 5px;
 }
 
-.right_content {
-  width: 50%;
-}
 
 .img {
   width: 420px;
